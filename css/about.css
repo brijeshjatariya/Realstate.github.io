@@ -1,0 +1,12 @@
+#about-img {
+  border-radius: 0%;
+  overflow: hidden;
+}
+
+.service-show img {
+  width: 150px;
+  padding: 20px;
+  color: var(--color-primary);
+  border-radius: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,28 @@
+#details-head {
+  width: 100%;
+  padding: 20px 0;
+  font-family: "Poppins", serif;
+}
+#details-head .fas {
+  color: #212d3d;
+}
+#property-image {
+  width: 100%;
+  padding: 100px 0;
+  text-align: center;
+  font-family: "Poppins", serif;
+}
+#property-image .carousel-item img {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+.details-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 40px;
+  list-style-type: none;
+  text-align: left;
+  font-size: 15px;
+}
